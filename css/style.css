@@ -13,7 +13,7 @@ body{
     padding: 20px;
 }
 header{
-    background-color: #6058b9;
+    background-color: #b95858;
     color:#fdfbfb;
     padding:30px;
     text-align:center;
@@ -36,4 +36,43 @@ nav a{
 }
 nav a:hover{
     text-decoration: underline;
+}
+main{
+    margin:auto;
+    width: 90%;
+    margin-top: 30px;
+
+}
+section{
+    margin-bottom: 30px;
+    background-color: rgb(207, 187, 187);
+    padding: 20px;
+    border-radius: 20px;
+}
+h2{
+    color: #fdfbfb;
+    margin-bottom: 10px;
+}
+p{
+    color: #040008;
+    margin-bottom: 10px;
+}
+.banner{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: disc;
+    margin-left: 50px;
+    padding: 10px;
+}
+li{
+    margin-bottom: 10px;
+}
+article{
+    background-color: #666161;
+    padding: 20px;
+    border-radius: 10px;
 }
