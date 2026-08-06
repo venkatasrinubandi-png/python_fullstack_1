@@ -72,7 +72,41 @@ li{
     margin-bottom: 10px;
 }
 article{
-    background-color: #666161;
+    background-color: #a09c9d;
     padding: 20px;
     border-radius: 10px;
+}
+article:hover{
+    background-color: #a09c9d;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #120d0d;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid #ccc;
+}
+tr:hover{
+    background-color: #f2f2f2;
+}
+ol{
+    margin-left: 50px;
+    padding: 10px;
+}
+ol li{
+    margin-bottom: 10px;
+}
+form{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
 }
